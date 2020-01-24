@@ -28,6 +28,7 @@ When this lab is complete, your application should have the following behavior:
 Make sure to use a route helper method to redirect to the `show` page at the end of the `create` method. You can find the correct syntax for this route by running `rake routes` in the terminal.
 
 
+
 ## Resources
 
 * [Reading](https://github.com/learn-co-curriculum/rails-create-action-readme)
