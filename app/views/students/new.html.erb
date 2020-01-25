@@ -2,11 +2,11 @@
 <h1>Student Form</h1>
 
 <%=form_tag students_path do%>
-  <%=label_tag 'first_name','First name'%>:
+  <%=label_tag 'first_name','First Name'%>:
   <%=text_field_tag 'first_name'%><br><br>
 
-  <%=label_tag 'last_name', 'Last name'%>:
+  <%=label_tag 'last_name', 'Last Name'%>:
   <%=text_field_tag 'last_name'%><br><br>
-  
+
   <%= submit_tag 'Submit Student'%>
 <% end %>
