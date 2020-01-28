@@ -18,7 +18,7 @@ class StudentsController < ApplicationController
     @student.last_name = params[:last_name]
     @student.save
     
-    redirect_to action: "show", id: @student.id
+    redirect_to student_path(@student)
   end
 
 end
